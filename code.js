@@ -12,14 +12,16 @@
 // console.log(stack.peek());
 // console.log(stack);
 
+
+
 // Create a new Queue
-const queue = new Queue();
+// const queue = new Queue();
 
-let item;
+// let item;
 
-console.clear();
-queue.enqueue("First");
-queue.enqueue("Second");
-queue.enqueue("Third");
-item = queue.dequeue();
-console.log(queue, item);
+// console.clear();
+// queue.enqueue("First");
+// queue.enqueue("Second");
+// queue.enqueue("Third");
+// item = queue.dequeue();
+// console.log(queue, item);
