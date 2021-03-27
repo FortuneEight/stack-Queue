@@ -33,16 +33,34 @@ let cls = console.clear;
 
 // Create my version of an array
 
-const arr = new MyArray();
+// const arr = new MyArray();
+
+// cls();
+
+// arr.push(1);
+// arr.push(2);
+// arr.push(3);
+// arr.push(4);
+// arr.push(5);
+// arr.push(6);
+
+// log(arr.display());
+
+
+// Create a Linked List
+
+const linkedList = new LinkedList();
 
 cls();
 
-arr.push(1);
-arr.push(2);
-arr.push(3);
-arr.push(4);
-arr.push(5);
+linkedList.prepend(1);
+linkedList.prepend("Two");
+linkedList.prepend(3);
+linkedList.prepend([1, true, "Three"]);
 
-arr.delete(2);
 
-log(arr.display());
+linkedList.append("Four");
+linkedList.append(5);
+linkedList.append(false);
+
+linkedList.display();
