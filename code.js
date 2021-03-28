@@ -49,35 +49,38 @@ let cls = console.clear;
 
 // Create a Linked List
 
-const linkedList = new LinkedList();
+// const linkedList = new LinkedList();
 
-cls();
+// cls();
 
-linkedList.prepend(1);
-linkedList.prepend("Two");
-linkedList.prepend(3);
-linkedList.prepend([1, true, "Three"]);
+// linkedList.prepend(1);
+// linkedList.prepend("Two");
+// linkedList.prepend(3);
+// linkedList.prepend([1, true, "Three"]);
 
 
-linkedList.append("Four");
-linkedList.append(5);
-linkedList.append(false);
+// linkedList.append("Four");
+// linkedList.append(5);
+// linkedList.append(false);
 
-// linkedList.insert("5even", -1);
-linkedList.insert("EIGHT!", 0);
-linkedList.insert(9, linkedList.length - 1);
-// linkedList.insert(["ten", 11, true], linkedList.length);
+// // linkedList.insert("5even", -1);
+// linkedList.insert("EIGHT!", 0);
+// linkedList.insert(9, linkedList.length - 1);
+// // linkedList.insert(["ten", 11, true], linkedList.length);
 
-linkedList.insert(4.1234, 4)
+// linkedList.insert(4.1234, 4)
 
-linkedList.delete(0);
-linkedList.delete(linkedList.length - 1);
-// linkedList.delete(linkedList.length);
-linkedList.delete(2);
+// linkedList.delete(0);
+// linkedList.delete(linkedList.length - 1);
+// // linkedList.delete(linkedList.length);
+// linkedList.delete(2);
 
-linkedList.display();
+// linkedList.display();
 
-console.log("--------REVERSE--------")
+// console.log("--------REVERSE--------")
 
-linkedList.reverse();
-linkedList.display();
+// linkedList.reverse();
+// linkedList.display();
+
+
+// Create a double Linked list
